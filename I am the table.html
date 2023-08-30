@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Ivo Table</title>
+        <link rel="icon" href="file:///C:/Users/Admin/Desktop/HTML/Table Project/images/favicon.ico">
+        <style>
+            body {
+                background-color: #DBF3FA;
+            }
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                background-color: bisque;
+                font-size: 18px;
+                
+                
+            }
+            th + :not(.No, .Img) {
+                /*padding: 0 100px;*/
+            }
+            td {
+                
+            }  
+        </style>
+    </head>
+    <body>
+        <table style="width:100%;"> <!--  -->
+            <tr>
+                <th style="width:30px">№</th>
+                <th style="width:83px">Img</th>
+                <th>Car Brand</th>
+                <th>Model</th>
+                <th>Year Manufactured</th>
+                <th>Mileage</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="C:/Users/Admin/Desktop/HTML/Table Project/images/Astra.jpg" target="_blank">
+                        <img src="C:/Users/Admin/Desktop/HTML/Table Project/images/Astra.jpg" alt="Astra" style="width:100px;"><!--  -->
+                    </a>
+                </td>
+                <td>Opel</td>
+                <td>Astra</td>
+                <td>2010</td>
+                <td>100 000 km</td>
+                <td>10 000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="C:/Users/Admin/Desktop/HTML/Table Project/images/Auris.jpg" target="_blank">
+                        <img src="C:/Users/Admin/Desktop/HTML/Table Project/images/Auris.jpg" alt="Auris" style="width:100px;"><!--  -->
+                    </a>
+                </td>
+                <td>Toyota</td>
+                <td>Auris</td>
+                <td>2010</td>
+                <td>100 000 km</td>
+                <td>10 000</td>
+            </tr>
+        </table>
+    </body>
+</html>
